@@ -16,6 +16,9 @@ public class BinaryClient {
             int intValue = 42;
             double doubleValue = 3.14;
 
+            // /add 4|5|7
+            // /multiply 5|7|9|3
+
             outputStream.writeInt(intValue);
             outputStream.writeDouble(doubleValue);
 
